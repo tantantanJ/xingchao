@@ -1,0 +1,124 @@
+{
+	"style":[
+		{
+			"styleName" : "TIMLESS",
+			"styleNameZH" : "镌刻",
+			"cost" : "2999",
+			"styleTile" : "深邃质感的力量 | 经典美学格调 | 稳重的空间气质",
+			"styleIntro" : "TIMELESS 镌刻，是一种经典魅力与当代设计的碰撞，高雅内敛的气质中有着丰富的经典美学细节。<br/>整体产品设计旨在将高雅与居住者个性，现代与经典的各个美学元素糅合于空间，重新定义现代奢华内涵，深邃系的空间感知与高品质进口家具完美结合，<br/>营造出强烈的当代奢华与时尚简约的空间氛围，凸显居住者克制的高雅品味。",
+			"styleImgUrl" : "img/style/timeless.jpg",
+			"styleLoction" : [
+				{
+					"loction":"LIVING ROOM",
+					"loctionZH":"客厅",
+					"loctionImgUrl": "img/style/timelessKeting.jpg",
+					"material": [
+						{
+							"materialName":"瓷砖",
+							"materialImgUrl":"img/style/timelessKetingCizhuan.jpg",
+							"infoTittle":"CERIM·意大利",
+							"infoText":"产品：纯天然矿物原料+特有釉面加工工艺"
+						},
+						{
+							"materialName":"吊顶",
+							"materialImgUrl":"img/style/timelessKetingDiaoDing.jpg",
+							"infoTittle":"KNAUF(可耐福)·德国",
+							"infoText":"轻钢龙骨及石膏板吊装系统"
+						},
+						{
+							"materialName":"涂料 / 壁纸",
+							"materialImgUrl":"img/style/timelessKetingTuliao.jpg",
+							"infoTittle":"ISAVAL·西班牙 / DP-ARCADIA",
+							"infoText":"乳胶漆 / 进口壁纸"
+						}
+					]
+				},
+				{
+					"loction":"LIVING ROOM",
+					"loctionZH":"卧室",
+					"loctionImgUrl": "img/style/timelessWoshi.jpg",
+					"material": [
+						{
+							"materialName":"瓷砖",
+							"materialImgUrl":"img/style/timelessWoshiCizhuan.jpg",
+							"infoTittle":"CERIM·意大利",
+							"infoText":"产品：纯天然矿物原料+特有釉面加工工艺"
+						},
+						{
+							"materialName":"吊顶",
+							"materialImgUrl":"img/style/timelessWoshiDiaoding.jpg",
+							"infoTittle":"KNAUF(可耐福)·德国",
+							"infoText":"轻钢龙骨及石膏板吊装系统"
+						},
+						{
+							"materialName":"涂料 / 壁纸",
+							"materialImgUrl":"img/style/timelessWoshiTuliao.jpg",
+							"infoTittle":"ISAVAL·西班牙 / DP-ARCADIA",
+							"infoText":"乳胶漆 / 进口壁纸"
+						}
+					]
+				}
+			]
+		},
+		{
+			"styleName" : "BOUTIQUE",
+			"styleNameZH" : "协奏",
+			"cost" : "xxx",
+			"styleTile" : "拿捏有度的时髦感 | 古典与当代的美妙协奏 | 材质与色彩的设计碰撞",
+			"styleIntro" : "Boutique ，如一支协奏曲，演绎古典与当代的美妙节奏，一个元素曲调引领下一个元素曲调，在变奏中协调呼应，氤氲出馥郁的简约细腻的古典和当代时尚的气质。<br/>整体空间是古典与当代的元素的协奏融汇，藏蓝色的沉静，古典吊顶的优雅，当代简约的石膏线条，古典姜黄色的跳跃其中，浅咖色的温情雅致……每一个组合和元素都在空间中寻获到<br/>最真实的自我表达， 不断得到创新演绎，彰显恒久的摩登风范，完美勾勒出优雅前卫的气质形象，不受羁绊，享受当代理性的时髦感。",
+			"styleImgUrl" : "img/style/boutique.jpg",
+			"styleLoction" : [
+				{
+					"loction":"LIVING ROOM",
+					"loctionZH":"客厅",
+					"loctionImgUrl": "img/style/boutiqueKeting.jpg",
+					"material": [
+						{
+							"materialName":"地板",
+							"materialImgUrl":"img/style/boutiqueKetingDiban.jpg",
+							"infoTittle":"KRONOSWISS·瑞士",
+							"infoText":"超强耐磨不褪色"
+						},
+						{
+							"materialName":"吊顶",
+							"materialImgUrl":"img/style/boutiqueKetingDiaoDing.jpg",
+							"infoTittle":"KNAUF(可耐福)·德国",
+							"infoText":"轻钢龙骨及石膏板吊装系统"
+						},
+						{
+							"materialName":"涂料 / 壁纸",
+							"materialImgUrl":"img/style/boutiqueKetingTuliao.jpg",
+							"infoTittle":"SAVAL·西班牙 / DP-ERA",
+							"infoText":"艺术漆+乳胶漆 / 进口壁纸"
+						}
+					]
+				},
+				{
+					"loction":"LIVING ROOM",
+					"loctionZH":"卧室",
+					"loctionImgUrl": "img/style/timelessWoshi.jpg",
+					"material": [
+						{
+							"materialName":"瓷砖",
+							"materialImgUrl":"img/style/timelessWoshiCizhuan.jpg",
+							"infoTittle":"CERIM·意大利",
+							"infoText":"产品：纯天然矿物原料+特有釉面加工工艺"
+						},
+						{
+							"materialName":"吊顶",
+							"materialImgUrl":"img/style/timelessWoshiDiaoding.jpg",
+							"infoTittle":"KNAUF(可耐福)·德国",
+							"infoText":"轻钢龙骨及石膏板吊装系统"
+						},
+						{
+							"materialName":"涂料 / 壁纸",
+							"materialImgUrl":"img/style/timelessWoshiTuliao.jpg",
+							"infoTittle":"ISAVAL·西班牙 / DP-ARCADIA",
+							"infoText":"乳胶漆 / 进口壁纸"
+						}
+					]
+				}
+			]
+		}
+	]
+}

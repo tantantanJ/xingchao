@@ -1,0 +1,74 @@
+{
+	"bannerImg": [
+		"img/banner/banner1.jpg",
+		"img/banner/banner3.jpg"
+	],
+	"shijingImg": [
+		"img/shijing/card1.jpg",
+		"img/shijing/card2.jpg",
+		"img/shijing/card3.jpg",
+		"img/shijing/card4.jpg"
+	],
+	"classes": [
+		{ 
+			"leibieID":"1",
+			"leibieName":"地板",
+			"miaoshu":"来自瑞士、挪威<br/>甄选百年木材、材质稳定<br/>E0级欧洲环保标准，无污染<br/>超强耐磨不褪色<br/>适用于地热<br/>独有纹理设计、满足个性需求",
+            "imgUrl":"img/classes/diban.jpg"
+		},
+		{	
+		    "leibieID":"2",
+			"leibieName":"瓷砖",
+			"miaoshu":"来自意大利、西班牙<br/>纯天然矿物原料、欧盟环保标准<br/> 特有釉面加工工艺、抗污易清洗<br/>坚固底胚，耐用抗压<br/>可选超大尺寸、满足个性需求",
+		     "imgUrl":"img/classes/cizhuan.jpg"
+		},
+		{	
+		    "leibieID":"3",
+			"leibieName":"卫浴",
+			"miaoshu":"来自瑞士<br/>荣获IF、红点设计大奖<br/>PWP过滤技术、超强净水功能<br/>特殊釉面处理、卓越自净能力<br/>甄选五金配置，长久使用不变色",
+		     "imgUrl":"img/classes/weiyu2.jpg"
+		},
+		{	
+		    "leibieID":"4",
+			"leibieName":"木门",
+			"miaoshu":"桥洞力学门板、密闭隔音保温防尘<br/>杜拉特饰面材料，耐划阻燃、不褪色<br/>免保养静音合页，无噪音、10万次开合",
+		     "imgUrl":"img/classes/mumen1.jpg"
+		},
+		{	
+		    "leibieID":"5",
+			"leibieName":"橱柜",
+			"miaoshu":"来自意大利<br/>多功能柜体组合、方案灵活多变<br/>德国上翻门支撑系统、人性设计，方便实用<br/>BLUM阻尼闭合， 经久耐用，无噪音<br/>",
+		     "imgUrl":"img/classes/chugui1.jpg"
+		},
+		{	
+		    "leibieID":"6",
+			"leibieName":"涂料",
+			"miaoshu":"来自西班牙<br/>西班牙皇家环保认证<br/>E0级欧洲环保标准<br/>耐擦洗抗污染<br/>独有艺术漆面，呈现不同种类材质感",
+		     "imgUrl":"img/classes/tuliao.jpg"
+		},
+		{	
+		    "leibieID":"7",
+			"leibieName":"家具",
+			"miaoshu":"来自德国、意大利大师创作，积淀百年的纯手工制作工艺，严格选材、注重细节，结合人体工学<br/>的触感设计，舒适耐用、功能性强。",
+		     "imgUrl":"img/classes/jiaju.jpg"
+		},
+		{	
+		    "leibieID":"8",
+			"leibieName":"窗帘",
+			"miaoshu":"来自比利时、意大利、印度，高端材质面料，满足各种风格需求，丰富花色设计、彰显品位。",
+		     "imgUrl":"img/classes/chuanglian.jpg"
+		},
+		{	
+		    "leibieID":"9",
+			"leibieName":"配饰",
+			"miaoshu":"来自美国好莱坞明星与皇室名流的挚爱，艺术大师亲手打造的限量版独具一格&彰显品位。",
+		     "imgUrl":"img/classes/peishi3.jpg"
+		},
+		{	
+		    "leibieID":"10",
+			"leibieName":"壁纸",
+			"miaoshu":"来自欧洲，与法拉利设计公司合作出品，艺术大师亲自操作绘制，世界森林管理委员会认证、<br/>IGI国际壁纸制造商协会认证，天然材质、防潮防霉。",
+		     "imgUrl":"img/classes/bizhi.jpg"
+		}
+	]
+}

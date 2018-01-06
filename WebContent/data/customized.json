@@ -1,0 +1,118 @@
+{
+	"customized":[
+		{
+			"customizednAME" : "1999 Basic 定制",
+			"cost" : "1999",
+			"customizedIntro1" : "1999元/㎡， 拒绝平庸的当代经典",
+			"customizedIntro2" : "全空间90%纯进口配置    硬装一站解决",
+			"customizedIntro3" : "不出国门逛全球    海外工厂直达消费者",
+			"Loction" : [
+				{
+		            "loctionName" : "客厅",
+		            "loctionImgUrl" : "img/customized/customizedKeting1.jpeg"
+				},
+				{
+		            "loctionName" : "餐厅",
+		            "loctionImgUrl" : "img/customized/customizedCanting1.jpeg"
+				},
+				{
+		            "loctionName" : "卧室",
+		            "loctionImgUrl" : "img/customized/customizedWoshi1.jpeg"
+				},
+				{
+		            "loctionName" : "厨房",
+		            "loctionImgUrl" : "img/customized/customizedChufang1.jpeg"
+				},
+				{
+		            "loctionName" : "主卫",
+		            "loctionImgUrl" : "img/customized/customizedZhuwei1.jpeg"
+				},
+				{
+		            "loctionName" : "次卫",
+		            "loctionImgUrl" : "img/customized/customizedCiwei1.jpeg"
+				},
+				{
+		            "loctionName" : "阳台",
+		            "loctionImgUrl" : "img/customized/customizedYangtai1.jpeg"
+				}
+				
+			]
+		},
+		{
+			"customizednAME" : "2399 Upgrade 定制",
+			"cost" : "2399",
+			"customizedIntro1" : "2399元/㎡， 无法超越的质价比爆款",
+			"customizedIntro2" : "高质价比标杆    物超所值的品质整装",
+			"customizedIntro3" : "高级感全球尖货    舒适耐看且质感满分",
+			"Loction" : [
+				{
+		            "loctionName" : "客厅",
+		            "loctionImgUrl" : "img/customized/customizedKeting2.jpeg"
+				},
+				{
+		            "loctionName" : "餐厅",
+		            "loctionImgUrl" : "img/customized/customizedCanting2.jpeg"
+				},
+				{
+		            "loctionName" : "卧室",
+		            "loctionImgUrl" : "img/customized/customizedWoshi2.jpeg"
+				},
+				{
+		            "loctionName" : "厨房",
+		            "loctionImgUrl" : "img/customized/customizedChufang2.jpeg"
+				},
+				{
+		            "loctionName" : "主卫",
+		            "loctionImgUrl" : "img/customized/customizedZhuwei2.jpeg"
+				},
+				{
+		            "loctionName" : "次卫",
+		            "loctionImgUrl" : "img/customized/customizedCiwei2.jpeg"
+				},
+				{
+		            "loctionName" : "阳台",
+		            "loctionImgUrl" : "img/customized/customizedYangtai2.jpeg"
+				}
+				
+			]
+		},
+		{
+			"customizednAME" : "3599 Luxury 定制",
+			"cost" : "3599",
+			"customizedIntro1" : "3599元/㎡， 极致品味的限量高定",
+			"customizedIntro2" : "奢侈品级顶配阵容    全明星整体家装",
+			"customizedIntro3" : "讲究的生活品质    源自讲究的品质好物",
+			"Loction" : [
+				{
+		            "loctionName" : "客厅",
+		            "loctionImgUrl" : "img/customized/customizedKeting3.jpeg"
+				},
+				{
+		            "loctionName" : "餐厅",
+		            "loctionImgUrl" : "img/customized/customizedCanting3.jpeg"
+				},
+				{
+		            "loctionName" : "卧室",
+		            "loctionImgUrl" : "img/customized/customizedWoshi3.jpeg"
+				},
+				{
+		            "loctionName" : "厨房",
+		            "loctionImgUrl" : "img/customized/customizedChufang3.jpeg"
+				},
+				{
+		            "loctionName" : "主卫",
+		            "loctionImgUrl" : "img/customized/customizedZhuwei3.jpeg"
+				},
+				{
+		            "loctionName" : "次卫",
+		            "loctionImgUrl" : "img/customized/customizedCiwei3.jpeg"
+				},
+				{
+		            "loctionName" : "阳台",
+		            "loctionImgUrl" : "img/customized/customizedYangtai3.jpeg"
+				}
+				
+			]
+		}
+	]
+}

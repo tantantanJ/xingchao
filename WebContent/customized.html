@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>定制家装</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style/style.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.2.js"></script>
+</head>
+<style>
+	.brand-wrapper{
+		height: 230px;
+		margin-bottom: 60px;
+	}
+	.brand-text{
+		height: 100%;
+		display: flex;
+ 	    flex-direction: column;
+  		justify-content: space-between;
+	}
+	.brand-img-right{
+    	height: 100%;
+		background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: right 0;
+	}
+	.brand-img-left{
+    	height: 100%;
+		background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: left 0;
+	}
+	.brand-text-left h2{
+	    background-image: url(img/customized/triangle_tr.png);
+		background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: left 0;
+        padding-left: 35px;
+	}
+	.brand-text-right h2{
+	    background-image: url(img/customized/triangle_tl.png);
+		background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: left 0;
+        padding-left: 35px;
+	}
+	.img1{
+		background-image: url(img/customized/1999-1.jpeg);
+	}
+	.img2{
+		background-image: url(img/customized/1999-2.jpeg);
+	}
+	.img3{
+		background-image: url(img/customized/1999-3.jpeg);
+	}
+	.img4{
+		background-image: url(img/customized/1999-4.jpeg);
+	}
+	.img5{
+		background-image: url(img/customized/1999-5.jpg);
+	}
+	.img6{
+		background-image: url(img/customized/1999-6.jpeg);
+	}
+	.img7{
+		background-image: url(img/customized/2399-1.jpg);
+	}
+	.img8{
+		background-image: url(img/customized/2399-2.jpg);
+	}
+	.img9{
+		background-image: url(img/customized/2399-3.jpeg);
+	}
+	.img10{
+		background-image: url(img/customized/2399-4.jpg);
+	}
+	.img11{
+		background-image: url(img/customized/2399-5.jpg);
+	}
+	.img12{
+		background-image: url(img/customized/2399-6.jpg);
+	}
+	.img13{
+		background-image: url(img/customized/3599-1.jpg);
+	}
+	.img14{
+		background-image: url(img/customized/3599-2.jpg);
+	}
+	.img15{
+		background-image: url(img/customized/3599-3.jpg);
+	}
+	.img16{
+		background-image: url(img/customized/3599-4.jpg);
+	}
+	.img17{
+		background-image: url(img/customized/3599-5.jpg);
+	}
+	.img18{
+		background-image: url(img/customized/3599-6.jpg);
+	}
+</style>
+<body>
+<header id="header"></header>
+<div id="shijing_banner">
+	<img src="img/banner/banner-dingzhi.jpg" />
+</div>
+<section id="classNav">
+	<div class="container fixedInTop" style="padding-left:0;padding-right:0">
+		<ul class="customized-nav">
+			<li class="box" onclick="customizedChange(1)"><span>1999 Basic 定制</span></li>
+			<li class="box" onclick="customizedChange(2)"><span>2399 Upgrade 定制</span></li>
+			<li class="box" onclick="customizedChange(3)"><span>3599 Luxury 定制</span></li>
+		</ul>
+	</div>
+</section>
+
+<section id="customized_intro">
+	<h1></h1>
+	<div class="container icon">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="icon-img">
+					<img src="img/customized/icon1.png" />
+					<img class="active" src="img/customized/icon1_active.png" />
+				</div>
+				<h4><strong>7</strong>大功能空间个性定制</h4>
+			</div>
+			<div class="col-sm-3">
+				<div class="icon-img">
+					<img src="img/customized/icon2.png" />
+					<img class="active" src="img/customized/icon2_active.png" />
+				</div>	
+				<h4><strong>200+</strong>全球主材自选</h4>
+			</div>
+			<div class="col-sm-3">
+				<div class="icon-img">
+					<img src="img/customized/icon3.png" />
+					<img class="active" src="img/customized/icon3_active.png" />
+				</div>
+				<h4><strong>16</strong>项先进施工配置</h4>
+			</div>
+			<div class="col-sm-3">
+				<div class="icon-img">
+					<img src="img/customized/icon4.png" />
+					<img class="active" src="img/customized/icon4_active.png" />
+				</div>
+				<h4><strong>0</strong>被动增项</h4>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="customized_zone">
+    <h1></h1>
+	<div class="container style1_info">
+		<div class="row hd">
+			<ul class="zone-btn-wrapper">
+				<li class="zone-btn"><span>客厅</span></li>
+				<li class="zone-btn"><span>餐厅</span></li>
+				<li class="zone-btn"><span>卧室</span></li>
+				<li class="zone-btn"><span>厨房</span></li>
+				<li class="zone-btn"><span>主卫</span></li>
+				<li class="zone-btn"><span>次卫</span></li>
+				<li class="zone-btn"><span>阳台</span></li>
+			</ul>
+		</div>
+		<div class="row bd zone-img-bd">
+		</div>
+	</div>
+</section>
+<div class="container customizedIntro3">
+    <h1></h1>
+</div>
+<section id="customized_brand">
+	<div class="container brand1">
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>厚重质朴的自然本色，会呼吸的健康地板</h2>
+				<div>
+					<h4>BOEN · 欧盟</h4>
+					<h4>三层实木三拼地板</h4>
+					<h4>优质北欧云杉芯材</h4>
+					<h4>纹理自然细腻，质地紧密性能稳定</h4>
+					<h4>世界森林管理委员会认证</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img1"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img2"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>媲美实木地板，闻得到天然木香</h2>
+				<div>
+					<h4>KRONOSWISS · 瑞士</h4>
+					<h4>臻选系列强化复合地板</h4>
+					<h4>50年-120年松木原材料</h4>
+					<h4>0 色差仿真实木花纹</h4>
+					<h4>世界森林管理委员会认证</h4>
+				</div>
+			</li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>有格调的墙面艺术，为居室体验代言</h2>
+				<div>
+					<h4>CERIM · 意大利</h4>
+					<h4>哑光釉面光感柔和</h4>
+					<h4>宽600mm，长1200mm</h4>
+					<h4>天然瓷土“一次烧成”</h4>
+					<h4>美国绿色建筑协会会员</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img3"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img4"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>人性化设计考量，科技化产品品质</h2>
+				<div>
+					<h4>KOHLER · 美国</h4>
+					<h4>精心内部设计使水压更均匀</h4>
+					<h4>亲氧水流技术，水滴轻柔有节奏力</h4>
+					<h4>明亮金属色泽，光洁美观</h4>
+					<h4>德国iF设计大奖</h4>
+				</div>
+			</li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>私密空间的悠然享受</h2>
+				<div>
+					<h4>ESEDRA · 意大利</h4>
+					<h4>用料考究无有害物质</h4>
+					<h4>特殊釉面处理脏污不易附着</h4>
+					<h4>瓷面光洁易清理</h4>
+					<h4>再生能源使用和规划 CLASS A认证</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img5"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img6"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>乐享生活乐享厨房</h2>
+				<div>
+					<h4>ZBOM · 中国</h4>
+					<h4>5大功能区域人性化配置</h4>
+					<h4>进口爱格板更环保，抗酸碱</h4>
+					<h4>双饰面板抗撞击，耐划痕</h4>
+					<h4>哑光漆减少反光色彩柔和</h4>
+					<h4>中国厨柜行业领军企业10强</h4>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="container brand2">
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>赤脚踩在地上的舒服
+亲身体会过才能知道</h2>
+				<div>
+					<h4>BOEN · 欧盟</h4>
+					<h4>大规格强化复合地板</h4>
+					<h4>天然油面传统栎木，色泽淡雅</h4>
+					<h4>整体木面完美再现原木质感</h4>
+					<h4>世界森林管理委员会认证</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img7"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img8"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>超厚板材，优+享受</h2>
+				<div>
+					<h4>KRONOSWISS · 瑞士</h4>
+					<h4>御享系列地板</h4>
+					<h4>强化复合，尊享感受</h4>
+					<h4>软硬适中，脚感舒适</h4>
+					<h4>超厚14mm板材，纹理自然细腻</h4>
+					<h4>世界森林管理委员会认证</h4>
+				</div>
+			</li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>把装饰做成一门艺术</h2>
+				<div>
+					<h4>CERIM · 意大利</h4>
+					<h4>特殊釉面亮面工艺</h4>
+					<h4>宽600mm，长1200mm</h4>
+					<h4>采用特殊工艺抛光处理</h4>
+					<h4>色泽鲜艳，抗污力强，耐磨性强</h4>
+					<h4>美国绿色建筑协会会员</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img9"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img10"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>厨房的温度代表家的温度</h2>
+				<div>
+					<h4>AR-TRE · 意大利</h4>
+					<h4>双饰面抗撞耐用板材</h4>
+					<h4>哑光漆低调典雅色彩柔和</h4>
+					<h4>西班牙进口德赛斯岩板</h4>
+					<h4>肌理细腻，可做砧板使用</h4>
+				</div>
+			</li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>国际设计理念，私享舒适空间</h2>
+				<div>
+					<h4>ESEDRA · 意大利</h4>
+					<h4>顶级哑光质感</h4>
+					<h4>精心打造每个细节</h4>
+					<h4>流线造型风格+人体工学设计</h4>
+					<h4>再生能源使用和规划 CLASS A认证</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img11"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img12"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>国际品位花纹，彰显独特气质</h2>
+				<div>
+					<h4>FIBONACCI · 比利时</h4>
+					<h4>国际化独特花纹设计</h4>
+					<h4>国外定制 原装进口</h4>
+					<h4>双饰面板抗撞击，耐划痕</h4>
+					<h4>高级无纺纸材质，抗污易擦洗</h4>
+					<h4>法国VOC环保最高A+等级认证</h4>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="container brand3">
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>回归朴素原木美
+少而精，简而奢</h2>
+				<div>
+					<h4>BOEN · 欧盟</h4>
+					<h4>三层实木三拼地板</h4>
+					<h4>取自珍稀木种，保留天然节疤本色</h4>
+					<h4>大规格宽版精细工艺处理</h4>
+					<h4>每一块都饱含独特花色纹理</h4>
+					<h4>世界森林管理委员会认证</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img13"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img14"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>超大规格，极致质感，生而不凡</h2>
+				<div>
+					<h4>CERIM · 意大利</h4>
+					<h4>意大利顶级设计纹理</h4>
+					<h4>超大规格，超薄切割工艺，完美瓷质釉面砖</h4>
+					<h4>宽800mm，长2400mm</h4>
+					<h4>阿尔卑斯山矿物提取釉料</h4>
+					<h4>美国绿色建筑协会会员</h4>
+				</div>
+			</li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>让生活井井有条</h2>
+				<div>
+					<h4>ARCOM · 意大利</h4>
+					<h4>意大利洁具匠心之作</h4>
+					<h4>世界顶级皇室专用</h4>
+					<h4>人体工程学设计研发</h4>
+					<h4>功能与人性化兼具</h4>
+					<h4>德国产品品质认证</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img15"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img16"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>极致体验，感官享受</h2>
+				<div>
+					<h4>MARIANI · 意大利</h4>
+					<h4>暗藏式花洒充满科技感</h4>
+					<h4>恒温与特殊增压出水，按摩除乏</h4>
+					<h4>过滤功能除菌去味</h4>
+					<h4>法国的ACS认证</h4>
+				</div>
+			</li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-text brand-text-left col-sm-6">
+				<h2>进口卫浴，极致细节处理
+看得见的考究与讲究</h2>
+				<div>
+					<h4>ESEDRA · 意大利</h4>
+					<h4>意大利纯进口</h4>
+					<h4>特有黑色哑光面陶瓷面盆+马桶 彰显气质个性</h4>
+					<h4>无可挑剔的五金配件，强劲更耐用</h4>
+					<h4>再生能源使用和规划 CLASS A认证</h4>
+				</div>
+			</li>
+			<li class="brand-img-right col-sm-6 img17"></li>
+		</ul>
+		<ul class="brand-wrapper row">
+			<li class="brand-img-left col-sm-6 img18"></li>
+			<li class="brand-text brand-text-right col-sm-6">
+				<h2>实木而成自然肌理，简约而不简单</h2>
+				<div>
+					<h4>全套进口整体橱柜</h4>
+					<h4>纯实木皮面板呈现自然肌理</h4>
+					<h4>进口爱格板更环保，抗酸碱</h4>
+					<h4>亮光漆面油润</h4>
+					<h4>进口食品级环保台面</h4>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<footer id="footer"></footer>
+<script type="text/javascript" src="js/scripts/main.js"></script>
+<script type="text/javascript" src="js/scripts/customized.js"></script>
+</body>
+</html>
